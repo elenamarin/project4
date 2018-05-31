@@ -1,27 +1,25 @@
 body {
-font-family: Verdana;
+font-family: Calibri;
 }
 
 p {
 	color: black;
-	font-family: Verdana;
+	font-family: Calibri;
 	font-size: 15 px;
 	font-weight: bold;
 }
 
 .indexbody {
-	background-color: #0383AD;
+	background-color: #79A9B8;
 }
 
 .grid-container {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-gap: 2vh;
 	border: 1px black solid;
 }
 
 .headerbody {
-	background-color: #0383AD;
+	background-color: #79A9B8;
 	padding: 1em;
 	grid-column-start: 2;
 	grid-column-end: span 1;
@@ -31,21 +29,13 @@ p {
 }
 	
 .leftsidebar {	
-	background-color: #0383AD;
+	background-color: #79A9B8;
 	padding: 1em;
-	grid-column-start: 2;
-	grid-column-end:span 1;	
-	grid-row-start: 1;
-	grid-row-end: span 2;
 	text-align: justify;
 }
 
 .rightsidebar {	
-	background-color: #0383AD;
+	background-color: #79A9B8;
 	padding: 1em;
-	grid-column-start: 2;
-	grid-column-end: span 1;	
-	grid-row-start: 1;
-	grid-row-end: span 2;
 	text-align: justify;
 }
