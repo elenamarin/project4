@@ -12,29 +12,66 @@ p {
 	background-color: #79A9B8;
 }
 
-.grid-container {
+.grid {
 	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 2vh;
 	border: 1px black solid;
 }
 
 .headerbody {
 	background-color: #79A9B8;
 	padding: 1em;
-	grid-column-start: 2;
-	grid-column-end: span 1;
-	grid-row-start: 1;
-	grid-row-end: span 2;
-	text-align: justify;
+	grid-column-start: 1;
+	grid-column-end: span 4;
 }
-	
-.leftsidebar {	
+
+.leftsidebar {
 	background-color: #79A9B8;
-	padding: 1em;
+	padding: 1 em;
+	grid-column-start: 1;
+	grid-column-end: span 2;
 	text-align: justify;
 }
 
-.rightsidebar {	
+.leftsidebar {
 	background-color: #79A9B8;
-	padding: 1em;
+	padding: 1 em;
+	grid-column-start: 1;
+	grid-column-end: span 2;
 	text-align: justify;
 }
+	
+.samplegrid-a {
+	background-color: #79A9B8;
+	padding: 1 em;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+}
+
+.samplegrid-b {
+	background-color: #79A9B8;
+	padding: 1 em;
+	grid-column-start: 2;
+	grid-column-end: span 1;
+}
+
+.samplegrid-c {
+	background-color: #79A9B8;
+	padding: 1 em;
+	grid-column-start: 3;
+	grid-column-end: span 1;
+}
+
+.samplegrid-d {
+	background-color: #79A9B8;
+	padding: 1 em;
+	grid-column-start: 4;
+	grid-column-end: span 1;
+}
+
+.footerbody {
+	background-color: #79A9B8;
+	padding: 1 em;
+	grid-column-start: 1;
+	grid-column-end: span 4;
