@@ -34,10 +34,10 @@ p {
 	text-align: justify;
 }
 
-.leftsidebar {
+.rightsidebar {
 	background-color: #79A9B8;
 	padding: 1 em;
-	grid-column-start: 1;
+	grid-column-start: 3;
 	grid-column-end: span 2;
 	text-align: justify;
 }
@@ -69,9 +69,3 @@ p {
 	grid-column-start: 4;
 	grid-column-end: span 1;
 }
-
-.footerbody {
-	background-color: #79A9B8;
-	padding: 1 em;
-	grid-column-start: 1;
-	grid-column-end: span 4;
